@@ -1,3 +1,11 @@
 #pragma once
 
-void math_func(int input, int one, int two);
+void func1(int one, int two);
+
+void func2(int one, int two);
+
+void func3(int one, int two);
+
+void func4(int one, int two);
+
+void func5(int one, int two);

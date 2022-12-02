@@ -14,8 +14,20 @@ int main()
 	std::cin >> two;
 	std::cout << "Выберите операцию(1 - сложение, 2 вычитание, 3 - умножение, 4 - деление, 5 - возведение в степень): ";
 	std::cin >> input;
-	if (input >= 1 && input <= 5) {
-		math_func(input, one, two);
+	if (input == 1) {
+		func1(one, two);
+	}
+	else if (input == 2) {
+		func2(one, two);
+	}
+	else if (input == 3) {
+		func3(one, two);
+	}
+	else if (input == 4) {
+		func4(one, two);
+	}
+	else if (input == 5) {
+		func5(one, two);
 	}
 	else {
 		std::cout << "вы ввели некоректный символ" << std::endl;
